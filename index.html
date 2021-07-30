@@ -9,15 +9,19 @@
 </head>
 <body>
   <form class= "hidden" id="login-form">
-    <input id = "login" required maxlength="15" type="text" placeholder="what is your name?"/>
+    <input id = "login" required maxlength="15" type="text" placeholder="what is your name?" autocomplete="off"/>
     <button>Log In</button>
   </form>
   <h2 id="clock">00:00:00</h2>
   <h1 id="greeting" class="hidden"></h1>
-  <form id="todo-form">
-    <input id = "todo" type="text" placeholder="Write a Todo and Press Enter" required />
-  </form>
-  <ul id="todo-list"></ul>
+  <div>
+    <form id="todo-form">
+      <input id = "todo" type="text" autocomplete="off" placeholder="Write a Todo and Press Enter" required />
+    </form>
+    <div>  
+      <ul id="todo-list"></ul>
+    </div>
+  </div>
   <div id="quote">
     <span></span> 
     <br>  

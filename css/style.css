@@ -57,15 +57,13 @@ button {
 }
 ul {
   list-style: none;
-  display: inline;
+  display: inline-block;
   padding-top: 30px;
+  left: 48%;
+  padding-left: 0;
 }
 li {
   font-size: 30px;
-  position: relative;
-  text-align: center;
-  width: 400px;
-  margin-left: 800px;
 }
 #greeting {
   position: fixed;
