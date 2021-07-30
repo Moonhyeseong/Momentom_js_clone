@@ -16,7 +16,7 @@ function onLoginSubmit(evnet) {
 
 function paintGreeting(username) {
   //h1태그 hidden 해제후 innerText 텍스트 추가
-  greeting.innerText = `Hello ${username} keep going`; // greeting.innerText = "Hello "+ username;
+  greeting.innerText = `Hello ${username}`; // greeting.innerText = "Hello "+ username;
   greeting.classList.remove(HIDDEN_CLASSNAME); //함수 실행시 classList에서 hidden을 제거해 greeting 숨김 해제
 }
 
