@@ -16,40 +16,40 @@ button {
   border: none;
 }
 #weather {
-  position: fixed;
+  position: absolute;
   top: 10px;
   right: 16px;
   font-size: 20;
 }
 #clock {
-  position: fixed;
+  position: absolute;
   top: 25%;
   width: 100%;
   text-align: center;
   font-size: 120px;
 }
 #login-form {
-  position: fixed;
+  position: absolute;
   top: 45%;
   width: 100%;
   text-align: center;
   font-size: 100px;
 }
 #quote {
-  position: fixed;
+  position: absolute;
   top: 90%;
   width: 100%;
   text-align: center;
   font-size: 20px;
 }
 #todo-list {
-  position: fixed;
+  position: absolute;
   top: 60%;
   width: 100%;
   font-size: 20px;
 }
 #todo-form {
-  position: fixed;
+  position: absolute;
   top: 60%;
   width: 100%;
   text-align: center;
@@ -66,7 +66,7 @@ li {
   font-size: 30px;
 }
 #greeting {
-  position: fixed;
+  position: absolute;
   top: 45%;
   width: 100%;
   text-align: center;
