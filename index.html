@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,33 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Momentum App</title>
 </head>
+
 <body>
-  <form class= "hidden" id="login-form">
-    <input id = "login" required maxlength="15" type="text" placeholder="what is your name?" autocomplete="off"/>
-    <button>Log In</button>
-  </form>
-  <h2 id="clock">00:00:00</h2>
-  <h1 id="greeting" class="hidden"></h1>
-  <div>
-    <form id="todo-form">
-      <input id = "todo" type="text" autocomplete="off" placeholder="Write a Todo and Press Enter" required />
+  <div id="weather">
+    <span>-</span>
+    <br>
+    <span>-</span>
+  </div>
+  <div class="container">
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <form class="hidden" id="login-form">
+      <input id="login" required maxlength="15" type="text" placeholder="what is your name?" autocomplete="off" />
+      <button>Log In</button>
     </form>
-    <div>  
+    <form id="todo-form">
+      <input id="todo" type="text" autocomplete="off" placeholder="Write a Todo and Press Enter" required />
+    </form>
+    <div>
       <ul id="todo-list"></ul>
     </div>
   </div>
-  <div id="quote">
-    <span></span> 
-    <br>  
-    <span></span>
-  </div>
-  <div id="weather">
+  <footer id="quote">
     <span></span>
     <br>
     <span></span>
-  </div>
+  </footer>
+
   <script src="JS/greetings.js"></script>
   <script src="JS/clock.js"></script>
   <script src="JS/quotes.js"></script>
@@ -39,4 +42,5 @@
   <script src="JS/todo.js"></script>
   <script src="JS/weather.js"></script>
 </body>
+
 </html>

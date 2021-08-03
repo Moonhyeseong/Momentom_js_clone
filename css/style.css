@@ -1,119 +1,87 @@
 .hidden {
   display: none;
 }
+#weather {
+  display: block;
+  padding: 20px;
+}
 body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 90vh;
+  height: 95vh;
   color: white;
 }
-input {
-  width: 175px;
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
-button {
-  background-color: transparent;
-  border: none;
-}
-#weather {
-  position: absolute;
-  top: 10px;
-  right: 16px;
-  font-size: 20;
-}
-#clock {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  font-size: 120px;
-}
-#login-form {
-  position: absolute;
-  top: 45%;
-  width: 100%;
-  text-align: center;
+#clock{
   font-size: 100px;
-}
-#quote {
-  position: absolute;
-  top: 90%;
-  width: 100%;
-  text-align: center;
-  font-size: 20px;
-}
-#todo-list {
-  position: absolute;
-  top: 60%;
-  width: 100%;
-  font-size: 20px;
-}
-#todo-form {
-  position: absolute;
-  top: 60%;
-  width: 100%;
-  text-align: center;
-  font-size: 20px;
-}
-ul {
-  list-style: none;
-  display: inline-block;
-  padding-top: 30px;
-  left: 48%;
-  padding-left: 0;
-}
-li {
-  font-size: 30px;
-}
-#greeting {
-  position: absolute;
-  top: 45%;
-  width: 100%;
-  text-align: center;
-  font-size: 60px;
+  padding-top: 100px;
+  margin-bottom: 20px;
 }
 input:focus {
   outline: none;
 }
-input:focus::-webkit-input-placeholder {
-  color: transparent;
+#login-form input::placeholder{
+  text-align: center;
+  color: white;
+  font-size: 20px;
 }
-
-#login-form #login {
-  background-color: transparent;
+#login-form {
+  margin-bottom: 20px;
+}
+#login-form button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 30px;
+}
+#login-form input {
+  background: none;
+  border: none;
   border-bottom: 2px solid white;
-  border-top: none;
-  border-right: none;
-  border-left: none;
   width: 300px;
   height: 50px;
-  color: white;
-  font-size: 30px;
   text-align: center;
-}
-#login-form #login::placeholder {
   color: white;
-  font-size: 30px;
-  text-align: center;
+  font-size: 20px;
 }
 
-#todo-form #todo {
-  background-color: transparent;
+#todo-form input::placeholder{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+#todo-form input {
+  background: none;
+  border: none;
   border-bottom: 2px solid white;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  width: 250px;
-  color: white;
-  font-size: 18px;
+  width: 300px;
+  height: 50px;
   text-align: center;
-}
-#todo-form #todo::placeholder {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
+}
+li button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: tomato;
+}
+li{
+  font-size: 20px;
+}
+footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
+  padding-bottom: 10px;
 }
-button {
-  color: white;
-  font-size: 30px;
-}
+
